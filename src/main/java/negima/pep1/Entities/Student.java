@@ -14,7 +14,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Student {
     @Id
-    private int rut;
+    private Integer rut;
     private String lastnames;
     private String names;
     private LocalDate born;
